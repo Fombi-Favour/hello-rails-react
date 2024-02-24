@@ -7,3 +7,9 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Greeting.create(greeting: "Hello world!")
+Greeting.create(greeting: "Hello there!")
+Greeting.create(greeting: "Welcome!")
+Greeting.create(greeting: "Hi there!")
+Greeting.create(greeting: "Welcome to react-rails!")
