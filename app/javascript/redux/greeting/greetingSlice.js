@@ -1,5 +1,4 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import {stat} from "@babel/core/lib/gensync-utils/fs";
 
 const initialState = {
     loading: false,
